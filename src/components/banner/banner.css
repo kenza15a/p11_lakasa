@@ -1,0 +1,28 @@
+.banner {
+    margin: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 93vw;
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 10rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1)0%, rgba(0, 0, 0, 0.4) 100%);
+
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-bg {
+    object-fit: cover;
+    height: inherit;
+    border-radius: 0.5rem;
+    opacity: 0.7;
+}
