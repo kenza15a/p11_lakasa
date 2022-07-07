@@ -1,0 +1,4 @@
+{
+    "typescript.updateImportsOnFileMove.enabled": "prompt",
+    "javascript.updateImportsOnFileMove.enabled": "prompt"
+}

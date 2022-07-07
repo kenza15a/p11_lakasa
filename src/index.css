@@ -12,16 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.annonces-container {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1rem;
-  width: 90vw;
-  margin: 2rem 2rem 2rem 2rem;
-  background-color: #F7F7F7;
-  border-radius: 1rem;
-  padding: 2rem;
-}

@@ -1,21 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './components/navbar/navbar';
-import AnnonceCard from './components/annonce/annoceCard';
-import Banner from './components/banner/banner';
+import App from './components/App/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-        <Navbar />
-        <Banner />
-        <div className='annonces-container'>
-            <AnnonceCard /><AnnonceCard /><AnnonceCard />
-            <AnnonceCard /><AnnonceCard /><AnnonceCard />
-        </div>
+        <React.StrictMode>
+            <App />
+        </React.StrictMode>
 
     </>
 

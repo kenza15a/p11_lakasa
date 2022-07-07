@@ -15,7 +15,7 @@ class Navbar extends Component {
               <a href="index.html">Accueil</a>
             </li>
             <li>
-              <a>A propos</a>
+              <a href="index.html">A propos</a>
             </li>
           </ul>
         </nav>

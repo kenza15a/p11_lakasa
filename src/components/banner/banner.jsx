@@ -8,7 +8,7 @@ class Banner extends Component {
       <>
         <div className="banner">
           <img className="banner-bg" src={bannerBg} alt="banner background" />
-          <h1>Chez vous, partout</h1>
+          <p className="banner-call-toaction">Chez vous, partout et ailleurs</p>
         </div>
       </>
     );

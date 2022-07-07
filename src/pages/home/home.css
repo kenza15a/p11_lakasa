@@ -1,0 +1,27 @@
+.annonces-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 90vw;
+    margin: 2rem;
+    background-color: #F7F7F7;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+@media screen and (max-width:480px) {
+
+    .annonces-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 92vw;
+        margin: 0.5rem;
+        background-color: #F7F7F7;
+        border-radius: 1rem;
+        padding: 0.5rem;
+    }
+}

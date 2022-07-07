@@ -3,11 +3,15 @@ import "./annonceCard.css";
 class AnnonceCard extends Component {
   state = {};
   render() {
+    /*definr le props*/
+    const title = this.props.title;
+    const cover = this.props.cover;
+
     return (
       <>
         <div className="annonce">
-          
-          <h6>Appartement cosy</h6>
+          <img src={cover} alt={cover}></img>
+          <h6>{title}</h6>
         </div>
       </>
     );

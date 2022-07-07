@@ -1,21 +1,25 @@
 .banner {
-    margin: 2rem 2rem 2rem 2rem;
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 93vw;
+    width: 90vw;
+    margin: 2rem;
     position: relative;
     text-align: center;
     color: white;
     height: 10rem;
     border-radius: 0.5rem;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1)0%, rgba(0, 0, 0, 0.4) 100%);
 
+    /*background: linear-gradient(180deg, rgba(255, 255, 255, 1)0%, rgba(0, 0, 0, 0.4) 100%);
+*/
+    background-color: black;
 }
 
-.banner h1 {
+.banner .banner-call-toaction {
+    font-size: 1.8rem;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -25,4 +29,107 @@
     height: inherit;
     border-radius: 0.5rem;
     opacity: 0.7;
+    width: 100%;
+}
+
+@media screen and (min-width:480px) {
+    .banner {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 95vw;
+        margin: 2rem;
+        position: relative;
+        text-align: center;
+        color: white;
+        height: 10rem;
+        border-radius: 0.5rem;
+
+        /*background: linear-gradient(180deg, rgba(255, 255, 255, 1)0%, rgba(0, 0, 0, 0.4) 100%);
+    */
+        background-color: black;
+    }
+
+    .banner .banner-call-toaction {
+        font-size: 1.8rem;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .banner-bg {
+        object-fit: cover;
+        height: inherit;
+        border-radius: 0.5rem;
+        opacity: 0.7;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .banner {
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 98vw;
+        position: relative;
+        text-align: center;
+        color: white;
+        height: 10rem;
+        border-radius: 0.5rem;
+
+        /*background: linear-gradient(180deg, rgba(255, 255, 255, 1)0%, rgba(0, 0, 0, 0.4) 100%);
+    */
+        background-color: black;
+    }
+
+    .banner .banner-call-toaction {
+        font-size: 1.8rem;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .banner-bg {
+        object-fit: cover;
+        height: inherit;
+        border-radius: 0.5rem;
+        opacity: 0.7;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .banner {
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 92vw;
+        height: 20vh;
+        position: relative;
+        text-align: center;
+        color: white;
+        border-radius: 0.5rem;
+
+        /*background: linear-gradient(180deg, rgba(255, 255, 255, 1)0%, rgba(0, 0, 0, 0.4) 100%);
+    */
+        background-color: black;
+    }
+
+    .banner .banner-call-toaction {
+        font-size: 1.5rem;
+        text-align: left;
+        position: absolute;
+        top: 20%;
+        left: 55%;
+        width: 20rem;
+        word-wrap: break-word;
+        overflow: auto;
+    }
 }
