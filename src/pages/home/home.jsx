@@ -1,31 +1,36 @@
 import React, { Component } from "react";
 import "./home.css";
-import Navbar from "../../components/navbar/navbar";
 import AnnonceCard from "../../components/annonce/annoceCard";
 import Banner from "../../components/banner/banner";
-import Footer from "../../components/footer/footer";
-import annonceData from "../../services/data.json";
+//import annonceData from "../../services/data.json";
+import { Link } from "react-router-dom";
+import AnnonceService from "../../services/annonceService";
+import bannerBg from "./IMG.png";
+
 class Home extends Component {
-  state = {};
+  // const service =new AnnonceService()
   render() {
+    const service = new AnnonceService();
+    const annonceData = service.annoncesTab;
+    const title = "Chez vous, partout et ailleurs";
+    /*console.table(annonceData);*/
     return (
       <>
-        <Navbar />
-        <Banner />
+        <Banner title={title} cover={bannerBg} />
         <div className="annonces-container">
           {annonceData && //pour verifier si les données existe avent de les afficher
             annonceData.map((data) => {
               return (
-                <AnnonceCard
+                <Link
+                  to={`/annonce/${data.id}`}
                   key={data.id}
-                  title={data.title}
-                  cover={data.cover}
-                />
+                  className="annonce"
+                >
+                  <AnnonceCard title={data.title} cover={data.cover} />
+                </Link>
               );
             })}
         </div>
-
-        <Footer />
       </>
     );
   }

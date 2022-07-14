@@ -1,0 +1,16 @@
+.tag-button {
+    background-color: #ff6060;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    color: #fff;
+    width: 150px;
+    max-width: max-content;
+}
+
+.tag-text {
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 10px;
+}

@@ -1,0 +1,52 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FF6060;
+    font-family: 'Montserrat';
+    height: 80vh;
+
+}
+
+.error-code {
+    margin-top: 0;
+    font-size: 20rem;
+    color: inherit;
+    margin-bottom: 0.2rem;
+
+}
+
+.error-text {
+    font-size: 1.5rem;
+    color: inherit;
+}
+
+/*mobile*/
+@media screen and (max-width:480px) {
+    .error {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #FF6060;
+        font-family: 'Montserrat';
+        height: 80vh;
+        width: 90vw;
+        margin: auto;
+
+
+    }
+
+    .error-code {
+        margin-top: 0;
+        font-size: 12rem;
+        color: inherit;
+        margin-bottom: 0.2rem;
+
+    }
+
+    .error-text {
+        font-size: 1rem;
+        color: inherit;
+    }
+
+}

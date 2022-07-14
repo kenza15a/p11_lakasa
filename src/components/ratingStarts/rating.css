@@ -1,0 +1,8 @@
+.ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    text-align: left;
+
+}

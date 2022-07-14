@@ -1,0 +1,18 @@
+.accordions {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+
+@media screen and (max-width:480px) {
+    .accordions {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-right: 2rem;
+
+    }
+
+}

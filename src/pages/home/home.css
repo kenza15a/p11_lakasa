@@ -1,10 +1,10 @@
 .annonces-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
-    width: 90vw;
+    gap: 3rem;
+    width: 92vw;
     margin: 2rem;
     background-color: #F7F7F7;
     border-radius: 1rem;

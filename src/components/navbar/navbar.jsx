@@ -7,15 +7,15 @@ class Navbar extends Component {
     return (
       <>
         <nav>
-          <a href="index.html">
+          <a href="/home">
             <img className="logo" src={logo} alt="logo" />
           </a>
           <ul className="nav-menu">
             <li>
-              <a href="index.html">Accueil</a>
+              <a href="/home">Accueil</a>
             </li>
             <li>
-              <a href="index.html">A propos</a>
+              <a href="/about">A propos</a>
             </li>
           </ul>
         </nav>

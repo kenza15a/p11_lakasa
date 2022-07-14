@@ -69,21 +69,19 @@
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (min-width:480px) {
     .banner {
-        margin: 1rem;
+        margin: auto;
+        margin-bottom: 2rem;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 98vw;
+        width: 92vw;
         position: relative;
         text-align: center;
         color: white;
-        height: 10rem;
-        border-radius: 0.5rem;
-
-        /*background: linear-gradient(180deg, rgba(255, 255, 255, 1)0%, rgba(0, 0, 0, 0.4) 100%);
-    */
+        height: 19vh;
+        border-radius: 2rem;
         background-color: black;
     }
 
@@ -98,7 +96,7 @@
     .banner-bg {
         object-fit: cover;
         height: inherit;
-        border-radius: 0.5rem;
+        border-radius: 2rem;
         opacity: 0.7;
         width: 100%;
     }
@@ -106,20 +104,26 @@
 
 @media screen and (max-width:480px) {
     .banner {
-        margin: 1rem;
+        margin: auto;
+        margin-bottom: 2rem;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         width: 92vw;
-        height: 20vh;
+        height: 30vh;
         position: relative;
         text-align: center;
         color: white;
-        border-radius: 0.5rem;
-
-        /*background: linear-gradient(180deg, rgba(255, 255, 255, 1)0%, rgba(0, 0, 0, 0.4) 100%);
-    */
+        border-radius: 2rem;
         background-color: black;
+    }
+
+    .banner-bg {
+        object-fit: cover;
+        height: inherit;
+        border-radius: 2rem;
+        opacity: 0.7;
+        width: 100%;
     }
 
     .banner .banner-call-toaction {

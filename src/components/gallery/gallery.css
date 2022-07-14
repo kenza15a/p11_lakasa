@@ -1,0 +1,99 @@
+.caroussel {
+    width: 90vw;
+    height: 55vh;
+    border-radius: 2rem;
+    margin: auto;
+}
+
+.caroussel-inner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-radius: 2rem;
+}
+
+.caroussel-inner .left {
+    border-radius: 2rem 0rem 0rem 2rem;
+    flex: 5%;
+    height: 100%;
+    background-color: rgb(1, 1, 1, 0.01);
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.caroussel-inner .center {
+    flex: 90%;
+    height: 100%;
+}
+
+.caroussel-inner .right {
+    border-radius: 0rem 2rem 2rem 0rem;
+    flex: 5%;
+    height: 100%;
+    background-color: rgb(1, 1, 1, 0.01);
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.left-arrow {
+    font-size: 0.01rem;
+}
+
+@media screen and (max-width:480px) {
+    .caroussel {
+        width: 88vw;
+        height: 55vh;
+        border-radius: 2rem;
+        margin: auto;
+    }
+
+    .caroussel-inner {
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        border-radius: 2rem;
+    }
+
+    .caroussel-inner .left {
+        border-radius: 2rem 0rem 0rem 2rem;
+        flex: 2%;
+        height: 100%;
+        background-color: rgb(1, 1, 1, 0.020);
+        display: grid;
+        place-items: center;
+        color: #ffffff;
+        cursor: pointer;
+
+    }
+
+    .caroussel-inner .center {
+        flex: 90%;
+        height: 100%;
+    }
+
+    .caroussel-inner .right {
+        border-radius: 0rem 2rem 2rem 0rem;
+        flex: 2%;
+        height: 100%;
+        background-color: rgb(1, 1, 1, 0.020);
+        display: grid;
+        place-items: center;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .left .fa-solid {
+        font-size: 0.01rem;
+    }
+}

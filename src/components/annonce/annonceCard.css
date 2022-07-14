@@ -1,15 +1,15 @@
-.annonce-pic {
+.annonce img {
     object-fit: fill;
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
     border-radius: 0.5rem;
-    opacity: 0.2;
+    filter: brightness(70%);
 }
 
 .annonce {
     /*background: rgba(255, 96, 96, 1);*/
-    background: linear-gradient(180deg, rgba(255, 96, 96, 1)0%, rgba(0, 0, 0, 0.4) 100%);
+    /*background: linear-gradient(180deg, rgba(255, 96, 96, 1)0%, rgba(0, 0, 0, 0.4) 100%);*/
     width: 30%;
     height: 300px;
     border-radius: 0.5rem;
@@ -23,6 +23,7 @@
     color: white;
     position: relative;
     text-align: center;
+    cursor: pointer;
 
 
 }
@@ -38,16 +39,75 @@
     font-family: inherit;
     font-size: 1rem;
     text-align: left;
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
 }
 
+/*descktop*/
+@media screen and (min-width:681px) {
+    .annonce img {
+        object-fit: fill;
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+        border-radius: 0.5rem;
+        filter: brightness(70%);
+    }
+
+    .annonce {
+        /*background: rgba(255, 96, 96, 1);*/
+        /*background: linear-gradient(180deg, rgba(255, 96, 96, 1)0%, rgba(0, 0, 0, 0.4) 100%);*/
+        width: 30%;
+        height: 300px;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        flex-direction: column;
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        position: relative;
+        text-align: center;
+
+
+    }
+
+    .annonce h6 {
+
+        position: absolute;
+        left: 5.88%;
+        right: 5.88%;
+        top: 73.73%;
+        bottom: 5.88%;
+        color: inherit;
+        font-family: inherit;
+        font-size: 1rem;
+        text-align: left;
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+/*mobile*/
+
 @media screen and (max-width:480px) {
+    .annonce img {
+        object-fit: fill;
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+        border-radius: 0.5rem;
+        filter: brightness(70%);
+    }
+
     .annonce {
         /*background: rgba(255, 96, 96, 1);*/
         background: linear-gradient(180deg, rgba(255, 96, 96, 1)0%, rgba(0, 0, 0, 0.4) 100%);
-        width: 100%;
+        width: 90vw;
         height: 300px;
         border-radius: 0.5rem;
         display: flex;
@@ -61,4 +121,19 @@
 
     }
 
+    .annonce h6 {
+
+        position: absolute;
+        left: 5.88%;
+        right: 5.88%;
+        top: 73.73%;
+        bottom: 5.88%;
+        color: inherit;
+        font-family: inherit;
+        font-size: 1rem;
+        text-align: left;
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
 }

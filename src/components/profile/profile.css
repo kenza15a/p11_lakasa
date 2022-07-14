@@ -1,0 +1,20 @@
+.Profile-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.Profile-component .profile-pic {
+    border-radius: 50%;
+    object-fit: contain;
+    height: 60px;
+    width: 60px;
+
+}
+
+.Profile-component .name {
+    color: #ff6060;
+}
