@@ -21,6 +21,13 @@
     color: inherit;
 }
 
+.back-home {
+    color: #FF6060;
+    font-family: inherit;
+    font-size: 0.8rem;
+    margin-top: 40px;
+}
+
 /*mobile*/
 @media screen and (max-width:480px) {
     .error {
@@ -38,7 +45,7 @@
 
     .error-code {
         margin-top: 0;
-        font-size: 12rem;
+        font-size: 10rem;
         color: inherit;
         margin-bottom: 0.2rem;
 
@@ -49,4 +56,10 @@
         color: inherit;
     }
 
+    .back-home {
+        color: #FF6060;
+        font-family: inherit;
+        font-size: 0.8rem;
+        margin-top: 40px;
+    }
 }

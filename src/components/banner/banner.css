@@ -80,13 +80,13 @@
         position: relative;
         text-align: center;
         color: white;
-        height: 19vh;
+        height: 25vh;
         border-radius: 2rem;
         background-color: black;
     }
 
     .banner .banner-call-toaction {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
         position: absolute;
         top: 40%;
         left: 50%;

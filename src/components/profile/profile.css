@@ -1,11 +1,14 @@
 .Profile-component {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    margin: auto;
 
 }
+
+
 
 .Profile-component .profile-pic {
     border-radius: 50%;
@@ -17,4 +20,16 @@
 
 .Profile-component .name {
     color: #ff6060;
+}
+
+@media screen and (max-width:480px) {
+    .Profile-component {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+        margin: auto;
+
+    }
 }

@@ -1,17 +1,64 @@
 .accordions {
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    color: #FF6060;
+    font-family: inherit;
+    margin-top: 50px;
     margin: auto;
-
 }
 
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat';
+    margin: auto;
+    margin-bottom: 15vh;
+    position: relative;
+}
+
+@media screen and (min-width:480px) {
+    .accordions {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #FF6060;
+        font-family: inherit;
+        margin-top: 50px;
+        margin: auto;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Montserrat';
+        margin: auto;
+        margin-bottom: 15vh;
+        position: relative;
+    }
+}
 
 @media screen and (max-width:480px) {
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Montserrat';
+        margin: auto;
+        position: relative;
+    }
+
     .accordions {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        color: #FF6060;
+        font-family: inherit;
         margin: auto;
-        margin-right: 2rem;
 
     }
 

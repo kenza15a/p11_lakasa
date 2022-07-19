@@ -10,7 +10,7 @@ class AnnonceCard extends Component {
       <>
         <div>
           <img src={cover} alt={cover}></img>
-          <h6>{title}</h6>
+          <h6 className="annonce-title">{title}</h6>
         </div>
       </>
     );

@@ -8,8 +8,6 @@
 }
 
 .annonce {
-    /*background: rgba(255, 96, 96, 1);*/
-    /*background: linear-gradient(180deg, rgba(255, 96, 96, 1)0%, rgba(0, 0, 0, 0.4) 100%);*/
     width: 30%;
     height: 300px;
     border-radius: 0.5rem;
@@ -56,10 +54,8 @@
     }
 
     .annonce {
-        /*background: rgba(255, 96, 96, 1);*/
-        /*background: linear-gradient(180deg, rgba(255, 96, 96, 1)0%, rgba(0, 0, 0, 0.4) 100%);*/
         width: 30%;
-        height: 300px;
+        height: 28rem;
         border-radius: 0.5rem;
         display: flex;
         justify-content: center;
