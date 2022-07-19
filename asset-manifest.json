@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/p11_lakasa/static/css/main.366f9b72.css",
-    "main.js": "/p11_lakasa/static/js/main.bb87d2e3.js",
+    "main.js": "/p11_lakasa/static/js/main.d59cdf3e.js",
     "static/js/787.47097f7d.chunk.js": "/p11_lakasa/static/js/787.47097f7d.chunk.js",
     "static/media/about_banner.png": "/p11_lakasa/static/media/about_banner.cc7a05da2ad0e783537a.png",
     "static/media/IMG.png": "/p11_lakasa/static/media/IMG.024f945a990ae17b81b7.png",
     "index.html": "/p11_lakasa/index.html",
     "main.366f9b72.css.map": "/p11_lakasa/static/css/main.366f9b72.css.map",
-    "main.bb87d2e3.js.map": "/p11_lakasa/static/js/main.bb87d2e3.js.map",
+    "main.d59cdf3e.js.map": "/p11_lakasa/static/js/main.d59cdf3e.js.map",
     "787.47097f7d.chunk.js.map": "/p11_lakasa/static/js/787.47097f7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.366f9b72.css",
-    "static/js/main.bb87d2e3.js"
+    "static/js/main.d59cdf3e.js"
   ]
 }
