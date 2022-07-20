@@ -7,11 +7,10 @@ import AnnonceTitle from "../../components/annonceTitle/annonceTitle";
 import Location from "../../components/Location/location.jsx";
 import "./annoncePage.css";
 import Accordion from "../../components/accordion/accordion";
-import { useState } from "react";
 import Gallery from "../../components/gallery/gallery";
 import AnnonceService from "../../services/annonceService";
 const AnnoncePage = () => {
-  const [active, setActive] = useState(["Description", "Equipements"]);
+  /*const [active, setActive] = useState(["Description", "Equipements"]);*/
   const service = new AnnonceService();
   let { id } = useParams();
   const annonceDataTab = service.getAnnonceById(id);
@@ -49,12 +48,7 @@ const AnnoncePage = () => {
         </div>
       </div>
       <div className="details">
-        <Accordion
-          title="Description"
-          content={description}
-          active={active}
-          setActive={setActive}
-        />
+        <Accordion title="Description" content={description} />
         <Accordion
           title="Equipements"
           content={
@@ -63,8 +57,6 @@ const AnnoncePage = () => {
               return <li key={equipement + 1}>{equipement}</li>;
             })
           }
-          active={active}
-          setActive={setActive}
         />
       </div>
     </>
