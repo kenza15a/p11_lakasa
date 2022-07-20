@@ -19,11 +19,12 @@ class App extends Component {
           <BrowserRouter>
 
             <Routes>
-              <Route path="annonce/:id" element={<AnnoncePage />} />
+              <Route path="/annonce/:id" element={<AnnoncePage />} />
               <Route index element={<Home />} />
-              <Route path="home" element={<Home />} />
-              <Route path="about" element={<About />} />
-              <Route path="*" element={<PageNotFound />}>
+              <Route path="/p11_lakasa" element={<Home />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/*" element={<PageNotFound />}>
               </Route>
             </Routes>
           </BrowserRouter>

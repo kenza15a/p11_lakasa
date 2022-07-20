@@ -19,7 +19,6 @@
     border-radius: 2rem 0rem 0rem 2rem;
     flex: 5%;
     height: 100%;
-    background-color: rgb(1, 1, 1, 0.01);
     display: grid;
     place-items: center;
     color: #ffffff;
@@ -37,7 +36,6 @@
     border-radius: 0rem 2rem 2rem 0rem;
     flex: 5%;
     height: 100%;
-    background-color: rgb(1, 1, 1, 0.01);
     display: grid;
     place-items: center;
     color: #ffffff;
@@ -54,6 +52,11 @@
 
     font-size: 4rem;
 
+}
+
+.hide {
+    opacity: 0;
+    height: 0;
 }
 
 @media screen and (max-width:480px) {
@@ -90,7 +93,7 @@
         border-radius: 2rem 0rem 0rem 2rem;
         flex: 2%;
         height: 100%;
-        background-color: rgb(1, 1, 1, 0.020);
+
         display: grid;
         place-items: center;
         color: #ffffff;
@@ -108,7 +111,6 @@
         border-radius: 0rem 2rem 2rem 0rem;
         flex: 2%;
         height: 100%;
-        background-color: rgb(1, 1, 1, 0.020);
         display: grid;
         place-items: center;
         color: #ffffff;
@@ -118,5 +120,10 @@
 
     .left .fa-solid {
         font-size: 0.01rem;
+    }
+
+    .hide {
+        opacity: 0;
+        height: 0;
     }
 }
