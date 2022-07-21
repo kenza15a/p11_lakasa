@@ -1,7 +1,7 @@
 import './App.css';
 import Home from '../../pages/home/home'
 import React, { Component } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import PageNotFound from '../../pages/PageNotFound/pageNotFound';
 import AnnoncePage from '../../pages/annoncePage/annoncePage';
 import Navbar from '../navbar/navbar';
@@ -16,7 +16,7 @@ class App extends Component {
         <>
           <Navbar />
 
-          <BrowserRouter>
+          <HashRouter hashtype="hashbang">
 
             <Routes>
               <Route path="/annonce/:id" element={<AnnoncePage />} />
@@ -27,7 +27,7 @@ class App extends Component {
               <Route path="/*" element={<PageNotFound />}>
               </Route>
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
           <Footer />
         </>
       </div>
