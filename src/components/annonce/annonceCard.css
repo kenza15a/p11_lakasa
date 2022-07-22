@@ -43,7 +43,7 @@
 }
 
 /*descktop*/
-@media screen and (min-width:681px) {
+@media screen and (min-width:481px) {
     .annonce img {
         object-fit: fill;
         flex-shrink: 0;
